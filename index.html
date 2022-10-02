@@ -1,55 +1,96 @@
-<html>
-     <head>
-         <meta charset="UTF-8">
-		 <title>  Etec- Sistema </title>
-		 <link rel="stylesheet" href="style.css">
-     </head>
-     <body background="Livro.jpg">
-         <h1 > Etec </h1>
-	     <span>Faça seu Cadastro para saber seu desempenho escolar ou/e Acesse suas aulas</span>
-		 <form action="sistema.php" method="POST">
-		 <fieldset>
-		      <legend><b> Dados cadastrais</b> </legend>
-			  <table >
-			     <tr>
-				     <h1> Nome completo Usuário: </h1>
-				     <th><h1> Nome completo Usuário: </h1></th>
-					 <td> <input type="text" name="nome" size="70"> </td>
-			     
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Form</title>
+</head>
+<body>
+
+
+
+
+
+
+	<h1> Etec </h1>
+	<span>Faça seu Cadastro para saber seu desempenho escolar ou/e Acesse suas aulas</span>
+	<form class="box" action="sistema.php" method="POST">
+		<fieldset>
+			<legend><b> Dados cadastrais</b> </legend>
+			<table>
+				<tr>
+					<h1> Nome completo Usuário: </h1>
+					<th>
+						<h1> Nome completo Usuário: </h1>
+					</th>
+					<td> <input type="text" name="nome" size="70"> </td>
+
 					<th> Gênero: </th>
-					<td> <select name="genero" > 
+					<td> <select name="genero">
 							<option> </option>
 							<option> Masculino </option>
 							<option> Feminino </option>
 							<option> Outros </option>
-					        	<option> Prefiro não dizer </option>
-						 </select>
+							<option> Prefiro não dizer </option>
+						</select>
 					</td>
-				    
-				 <tr>
-				   
-					 <th><h1> E-mail:</h1> </th>
-					 <td> <input type="email" name="email" size="50"> </td>
-			         
-					 <th> Senha Usuário: </th>
-					 <td> <input type="password" name="senha" size="10"> </td>
-				   
-				 </tr>
-				 <tr>
-					 <th>Função: </th>
-					 <td> <input type="radio" name="funcao"  value = "admin"> Administrativo 
-						  <input type="radio" name="funcao"  value = "alu" > Aluno
-						  <input type="radio" name="funcao"  value = "prof" > Professor</td>
-				
-					 <th> Data de nascimento : </th>
-					 <td> <input type="date" name="data_nasc" ></td>
-				 </tr>
-			  </table>
-		 </fieldset>
-           <br>
-			 <br>
-		  <input type="submit" name= "cadastrar" value="Cadastrar">
-		  <input type="reset" name= "limpar" value="Limpar">
-		 </form>	 
-     </body>
+
+				<tr>
+
+					<th>
+						<h1> E-mail:</h1>
+					</th>
+					<td> <input type="email" name="email" size="50"> </td>
+
+					<th> Senha Usuário: </th>
+					<td> <input type="password" name="senha" size="10"> </td>
+
+				</tr>
+				<tr>
+					<th>Função: </th>
+					<td> <input type="radio" name="funcao" value="admin"> Administrativo
+						<input type="radio" name="funcao" value="alu"> Aluno
+						<input type="radio" name="funcao" value="prof"> Professor
+					</td>
+
+					<th> Data de nascimento : </th>
+					<td> <input type="date" name="data_nasc"></td>
+				</tr>
+			</table>
+		</fieldset>
+		<br>
+		<br>
+		<input type="submit" name="cadastrar" value="Cadastrar">
+		<input type="reset" name="limpar" value="Limpar">
+	</form>
+
+
+	<div class="lines">
+		<div class="line"></div>
+		<div class="line"></div>
+		<div class="line"></div>
+		<div class="line"></div>
+		<div class="line"></div>
+		<div class="line"></div>
+		<div class="line"></div>
+		<div class="line"></div>
+		<div class="line"></div>
+		<div class="line"></div>
+		<div class="line"></div>
+		<div class="line"></div>
+		<div class="line"></div>
+		<div class="line"></div>
+		<div class="line"></div>
+		<div class="line"></div>
+		<div class="line"></div>
+		<div class="line"></div>
+		<div class="line"></div>
+	</div>
+
+
+
+</body>
+
 </html>
